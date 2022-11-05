@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.top-img{
+    margin-top: -150px;
+}
+.bottom-img{
+    margin-bottom: -150px;
+    z-index: -1;
+    position: absolute;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .variableSize{
+        margin-right: 100px;
+        margin-left: 50px;
+    }
+  }
+
